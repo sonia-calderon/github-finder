@@ -1,48 +1,50 @@
-# React: Filtrado organización miembros Github
+# Github Finder
 
-### Obligatorio
+A React-based application for viewing GitHub organization members. Users can search for different organizations and navigate to the details of each member.
 
-En el ejercicio básico vamos a buscar el listado de miembros de Github de la organización que indique el usuario. Añadir un input y un botón para filtrar por organización, es decir:
+This project was created to practice React fundamentals.
 
-- Se muestra por defecto el listado de miembros de lemoncode.
-- Se muestra un input que por defecto tiene como valor: lemoncode.
-- El usuario puede teclear otro nombre de organizacíon, por ejemplo: microsoft y al pulsar el botón de busqueda te muestra los miembros de dicha organizacíon.
-- Que al volver de la página de detalle se muestre la organización que se había tecleado en el filtro (por ejemplo si el usuario tecleó microsoft se debe de ver Microsoft).
+## Features
 
-### Opcional
+- List of GitHub members.
+- Default organization: `Lemoncode`.
+- Input for searching organizations.
+- Navigation to details page.
+- Filter persistence when returning from details.
+- Pagination
 
-- Añade paginación.
-- Añade Material UI.
-- Añadir otra página y:
-  - Tirar de la API rest de Rick y Morty para mostrar la lista de personajes de la serie.
-  - Implementar la búsqueda.
-  - Implementar use Debounce.
-  - Mostrar detalle del actor seleccionado.
+## Technologies
 
-# Cómo ver el proyecto
+- React
+- TypeScript
+- React Router
+- Material UI
+- Vite
 
-## Requisitos
+## APIs
 
-- Node.js
-- npm
+- Github REST API
 
-## Cómo ejecutar
-
-1. Clonar el repositorio
+## Installation
 
 ```bash
-git clone <url-del-repositorio>
-cd <nombre-del-proyecto>
+git clone https://github.com/sonia-calderon/github-finder.git
+
+cd github-finder
+
+pnpm install
+
+pnpm start
 ```
 
-2. Instalar dependencias
+## Deployment
 
-```bash
-npm install
-```
+Live Demo:
 
-3. Levantar el servidor en desarrollo
+https://sonia-calderon.github.io/github-finder/
 
-```bash
-npm start
-```
+## Author
+
+Sonia Calderón:
+
+https://github.com/sonia-calderon/
